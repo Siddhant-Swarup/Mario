@@ -65,6 +65,8 @@ function setup() {
     coinGroup = new Group();
     //non friendly characters 
     obstaclegroup = new Group();
+    //object of demo class
+    mode=new Status();
 
 }
 
@@ -78,6 +80,8 @@ function draw() {
             bg.x = bg.width / 4;
         }
 
+
+        mode.displayvalue();
         //menu
         if (keyDown("o")) {
             hard.visible = true;

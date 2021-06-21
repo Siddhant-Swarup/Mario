@@ -8,4 +8,7 @@ class Status{
     getvalue(){
         return this.value;
     }
+    displayvalue(){
+        console.log(this.value);
+    }
 }
